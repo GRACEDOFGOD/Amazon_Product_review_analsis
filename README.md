@@ -1,64 +1,76 @@
-#Amazon Product Review Analysis
+# 📊 Amazon Product Review Analysis
 
-#Project Overview
+## 🧩 Project Overview
 
-This repository contains a detailed Exploratory Data Analysis (EDA) of Amazon product review data. The goal is to uncover actionable insights on pricing, discounts, customer ratings, and review patterns across various product categories. The analysis supports e-commerce sellers and marketers by guiding product optimization and strategy.
+This repository presents a comprehensive **Exploratory Data Analysis (EDA)** of Amazon product reviews. The objective is to extract actionable insights related to **pricing**, **discounts**, **ratings**, and **review trends** across multiple product categories. These insights aim to support **e-commerce sellers**, **marketers**, and **product strategists** in optimizing offerings and improving customer engagement.
 
-Dataset
-Source: Amazon product data (scraped)
+---
 
-Records: 1,465 unique products
+## 📁 Dataset Summary
 
-Features: Product details (name, category, price, discount), ratings, review counts, and more
+- **Source**: Scraped Amazon product data  
+- **Total Records**: 1,465 unique products  
+- **Features**:
+  - Product name, category, price, discount
+  - Customer ratings and number of reviews
+  - Additional calculated fields for business insight
 
-Project Structure
-bash
-Copy
-Edit
+---
+
+## 🏗️ Project Structure
+
+
 /
 ├── data/
-│   └── amazon_product_reviews.xlsx    # Cleaned dataset with calculated columns
+│ └── amazon_product_reviews.xlsx # Cleaned dataset with added insights
 ├── analysis/
-│   └── pivot_tables.xlsx               # Pivot tables and visualizations for insights
-├── README.md                          # Project documentation
-└── LICENSE                           # Licensing information
-Key Insights & Deliverables
-Average discount by category
+│ └── pivot_tables.xlsx # Pivot tables & visualizations
+├── README.md # Project documentation
+└── LICENSE # License details
 
-Product counts per category and price bucket
 
-Total and distribution of reviews and ratings
+---
 
-Relationship between discount and rating
+## 🔍 Key Insights & Deliverables
 
-Top-rated and most-reviewed products
+- 📌 **Average discount per category**
+- 📊 **Product counts across categories and price ranges**
+- ⭐ **Distribution of reviews and ratings**
+- 🔁 **Correlation between discount and customer rating**
+- 🥇 **Top-rated and most-reviewed products**
+- 💰 **Estimated revenue by product category**
 
-Revenue estimation by category
+All analyses are presented through **Excel pivot tables and charts**, allowing **interactive exploration** using slicers and filters.
 
-All insights are presented through pivot tables and charts within Excel files, enabling easy interactive exploration.
+---
 
-Technologies Used
-Microsoft Excel (Pivot Tables, Formulas, Charts)
+## 🛠️ Technologies & Tools
 
-Data Cleaning & Validation Techniques
+- **Microsoft Excel** (Pivot Tables, Charts, Formulas)
+- **Data Cleaning & Validation**
+- **Feature Engineering** for enhanced business insight
 
-Feature Engineering for business insights
+---
 
-How to Use
-Download or clone this repository
+## ▶️ How to Use
 
-Open the Excel files in Microsoft Excel (recommended version 2016 or later)
+1. **Download or clone** the repository.
+2. Open the Excel files (`amazon_product_reviews.xlsx`, `pivot_tables.xlsx`) in **Microsoft Excel 2016 or later**.
+3. Navigate through the dataset, apply filters, and explore insights interactively.
 
-Explore the cleaned dataset, pivot tables, and visualizations
+---
 
-Use slicers and filters in pivot tables to dive deeper into the data
+## 👤 About the Author
 
-About Me
-Eniitan Oluwatoyin Shadrack
-Data Scientist | Lecturer | Biomedical Computing Graduate
-📧 oluwatoyin.eniitan2020@gmail.com
-🔗 LinkedIn
-🧠 GitHub
+**Eniitan Oluwatoyin Shadrack**  
+_Data Scientist | Lecturer | Biomedical Computing Graduate_  
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+📧 [oluwatoyin.eniitan2020@gmail.com](mailto:oluwatoyin.eniitan2020@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com) *(Insert your actual LinkedIn URL)*  
+🧠 [GitHub](https://github.com) *(Insert your GitHub profile link)*
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for full details.
